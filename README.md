@@ -34,3 +34,7 @@ Web application that can be run on server.
 - templates - HTML template for user interface
 - uploads - store uploaded image for inference
 - app.py - main code running on server
+
+## References
+- https://www.kaggle.com/datasets/marcosgabriel/infrared-solar-modules
+- https://pyimagesearch.com/2020/03/02/anomaly-detection-with-keras-tensorflow-and-deep-learning/
