@@ -48,9 +48,9 @@ def classify_image(image_path, threshold=0.000877):
     mse = np.mean((image - recon) ** 2)
 
     if mse > threshold:
-        result = "Anomaly"
+        result = f"Anomaly: mse = {mse}"
     else:
-        result = "No-Anomaly"
+        result = f"No-Anomaly: mse = {mse}"
 
     return result
 
